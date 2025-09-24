@@ -1,5 +1,4 @@
-# DL- Developing a Neural Network Classification Model using Transfer Learning
-
+# EX-04: DL- Developing a Neural Network Classification Model using Transfer Learning
 ## AIM
 To develop an image classification model using transfer learning with VGG19 architecture for the given dataset.
 
@@ -10,37 +9,23 @@ To develop an image classification model using transfer learning with VGG19 arch
 Include the neural network model diagram.
 
 ## DESIGN STEPS
-### STEP 1: 
+STEP 1: Import required libraries and define image transforms.
 
-Write your own steps
+STEP 2: Load training and testing datasets using ImageFolder.
 
-### STEP 2: 
+STEP 3: Visualize sample images from the dataset.
 
+STEP 4: Load pre-trained VGG19, modify the final layer for binary classification, and freeze feature extractor layers.
 
+STEP 5: Define loss function (BCEWithLogitsLoss) and optimizer (Adam). Train the model and plot the loss curve.
 
-### STEP 3: 
-
-
-
-### STEP 4: 
-
-
-
-### STEP 5: 
-
-
-
-### STEP 6: 
-
-
-
-
+STEP 6: Evaluate the model with test accuracy, confusion matrix, classification report, and visualize predictions.
 
 ## PROGRAM
 
-### Name:
+### Name: Ashwin Akash M
 
-### Register Number:
+### Register Number: 212223230024
 
 ```python
 # Load Pretrained Model and Modify for Transfer Learning
@@ -77,4 +62,4 @@ Include classification report here
 Include your sample input and output here
 
 ## RESULT
-Include your result here
+VGG19 model was fine-tuned and tested successfully. The model achieved good accuracy with correct predictions on sample test images.
